@@ -27,9 +27,9 @@ public class Human extends Animal implements Thinkable {
     }
 
     //引数ありのコントラクタ
-    public Human(String hobby) {
+    public Human(String name, int age, String hobby) {
+        super(name,age);
         this.hobby = hobby;
-
     }
 
 
